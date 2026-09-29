@@ -3,13 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>客户案例 · 数字员工工坊</title>
+<title>案例 · 数字员工工坊</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body data-page="cases">
 <header class="site"><div class="wrap" id="nav"></div></header>
 <main>
-  <section class="block" id="cases" style="padding-top:72px"></section>
+  <!-- P0-1 挂载点：真实案例主打卡区置顶（美美设计稿模块二）。空 section 由 CSS :empty 隐藏，
+       内容由 content.js cases[0] + app.js 渲染器驱动，勿删 -->
+  <section class="block" id="real-case-list" style="padding-top:72px"></section>
+  <section class="block" id="cases"></section>
 </main>
 <footer class="site" id="footer"></footer>
 <script src="content.js"></script>

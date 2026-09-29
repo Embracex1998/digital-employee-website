@@ -11,8 +11,14 @@
 <header class="site"><div class="wrap" id="nav"></div></header>
 <main>
   <section class="hero" id="hero"></section>
+  <!-- P0-2 挂载点：产品实证模块（美美设计稿模块一）。空 section 由 CSS :empty 隐藏，
+       内容由 content.js 的 proof 键 + app.js 渲染器驱动，勿删 -->
+  <section class="ev-band" id="proof"></section>
   <section class="block" id="pains"></section>
   <section class="block" id="services" style="background:var(--bg2)"></section>
+  <!-- P0-1 挂载点：首页「真实案例」主打卡区块（美美设计稿模块二）。空 section 由 CSS :empty 隐藏，
+       内容由 content.js cases[0] + app.js 渲染器驱动，勿删 -->
+  <section class="block" id="real-cases" style="background:var(--bg2)"></section>
   <section class="block" id="process"></section>
   <section class="block" id="expweek"></section>
 </main>
